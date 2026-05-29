@@ -1,0 +1,19 @@
+2026-05-29 07:07:35 | INFO     | Device: mps | LoRA r=8 | max_batches/epoch=50
+2026-05-29 07:07:39 | INFO     | Whisper-tiny + LoRA | trainable=147,456 / total=37,908,096 (0.39%)
+2026-05-29 08:39:45 | INFO     | Epoch 01/5 | train=4.4884 | val=3.8333 | 5526.3s
+2026-05-29 08:39:45 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 10:23:40 | INFO     | Epoch 02/5 | train=3.5113 | val=3.1751 | 6234.9s
+2026-05-29 10:23:40 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:38:28 | INFO     | Device: mps | LoRA r=8 | max_batches/epoch=50
+2026-05-29 15:38:30 | INFO     | Whisper-tiny + LoRA | trainable=147,456 / total=37,908,096 (0.39%)
+2026-05-29 15:38:44 | INFO     | Epoch 01/5 | train=4.8526 | val=4.0931 | 13.5s
+2026-05-29 15:38:44 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:38:54 | INFO     | Epoch 02/5 | train=3.9213 | val=3.5781 | 9.7s
+2026-05-29 15:38:54 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:39:03 | INFO     | Epoch 03/5 | train=3.5669 | val=3.2711 | 9.3s
+2026-05-29 15:39:03 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:39:12 | INFO     | Epoch 04/5 | train=3.2163 | val=3.0945 | 8.7s
+2026-05-29 15:39:12 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:39:20 | INFO     | Epoch 05/5 | train=3.1651 | val=2.9938 | 8.7s
+2026-05-29 15:39:20 | INFO     |   Saved best → checkpoints/baselines/whisper_lora_best.pt
+2026-05-29 15:39:20 | INFO     | Results → checkpoints/baselines/whisper_lora_results.json | Best val: 2.9938 | Total: 50s

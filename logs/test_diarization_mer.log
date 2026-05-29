@@ -1,0 +1,21 @@
+2026-05-29 19:11:05 | INFO     | === Table 1: Code-Switched Role Erasure (held-out test set) ===
+2026-05-29 19:11:05 | INFO     | Loaded Phase-1 checkpoint (val_loss=5.4496)
+2026-05-29 19:11:05 | INFO     | Running inference on 16 test batches …
+2026-05-29 20:48:12 | INFO     | === Table 1: Code-Switched Role Erasure (held-out test set) ===
+2026-05-29 20:48:12 | INFO     | Loaded Phase-1 checkpoint (val_loss=5.4496)
+2026-05-29 20:48:12 | INFO     | Running inference on 125 test batches …
+2026-05-29 20:48:17 | DEBUG    | Batch 10 | elapsed=4.5s
+2026-05-29 20:48:23 | DEBUG    | Batch 20 | elapsed=10.8s
+2026-05-29 20:48:38 | DEBUG    | Batch 30 | elapsed=25.6s
+2026-05-29 20:48:57 | DEBUG    | Batch 40 | elapsed=45.0s
+2026-05-29 20:50:09 | DEBUG    | Batch 50 | elapsed=116.8s
+2026-05-29 20:51:30 | DEBUG    | Batch 60 | elapsed=197.8s
+2026-05-29 20:53:47 | DEBUG    | Batch 70 | elapsed=334.5s
+2026-05-29 21:00:43 | INFO     | === Table 1: Code-Switched Role Erasure (held-out test set) ===
+2026-05-29 21:00:43 | INFO     | Loaded Phase-1 checkpoint (val_loss=5.4496)
+2026-05-29 21:00:43 | INFO     | Running inference on 125 test batches …
+2026-05-29 21:01:25 | DEBUG    | Batch 80 | elapsed=792.6s
+2026-05-29 21:01:37 | DEBUG    | Batch 10 | elapsed=53.2s
+2026-05-29 21:04:35 | DEBUG    | Batch 20 | elapsed=231.5s
+2026-05-29 21:07:11 | DEBUG    | Batch 30 | elapsed=387.3s
+2026-05-29 21:09:57 | DEBUG    | Batch 40 | elapsed=553.8s

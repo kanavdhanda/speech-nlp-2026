@@ -1,0 +1,9 @@
+2026-05-29 20:51:24 | INFO     | === Table 2: Attention Sink Collapse (held-out test set) ===
+2026-05-29 20:51:25 | INFO     | Loaded checkpoint (val_loss=5.4496)
+2026-05-29 20:51:32 | INFO     | D-JEPA inference: entropy=4.269 | max_act=4.55 | lat=586.1ms
+2026-05-29 20:51:32 | INFO     | Table 2 complete.
+                                                         Model  Attn Entropy  Max Act Spike  Latency (ms)  Memory (GB)
+     Standard AR-LLM (GPT-style) [simulated, Xiao et al. 2023]         2.586         1111.2        1129.4        14.01
+                      StreamLLM (Xiao et al. 2023) [simulated]         3.577          550.7         864.8        13.29
+Decorr Loss — Llama-AVSR (Cappellazzo et al. 2026) [simulated]         4.293           97.5         993.2        13.25
+       Ours (D-JEPA L_decorr, 3-spk Hinglish) [real inference]         4.269            4.3         586.1          NaN

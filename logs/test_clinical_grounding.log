@@ -1,0 +1,19 @@
+2026-05-29 20:47:17 | INFO     | === Table 3: KG Grounding (CVR + CR@k) on held-out test set ===
+2026-05-29 20:47:17 | INFO     | Metrics: CVR = Constraint Violation Rate (lower=better), CR@k = Concept Recall@k (higher=better)
+2026-05-29 20:47:17 | INFO     | Loaded Phase-2 checkpoint (val_loss=5.4782)
+2026-05-29 20:51:24 | INFO     | === Table 3: KG Grounding (CVR + CR@k) on held-out test set ===
+2026-05-29 20:51:24 | INFO     | Metrics: CVR = Constraint Violation Rate (lower=better), CR@k = Concept Recall@k (higher=better)
+2026-05-29 20:51:25 | INFO     | Loaded Phase-2 checkpoint (val_loss=5.4782)
+2026-05-29 20:51:41 | DEBUG    | Batch 5/20 | CVR so far: 0.00%
+2026-05-29 20:51:47 | DEBUG    | Batch 10/20 | CVR so far: 0.00%
+2026-05-29 20:53:46 | DEBUG    | Batch 15/20 | CVR so far: 0.00%
+2026-05-29 20:55:35 | DEBUG    | Batch 20/20 | CVR so far: 0.00%
+2026-05-29 20:55:35 | INFO     | D-JEPA KG Eval | CVR=0.00% | CR@1=0.00% | CR@5=8.33% | frames=9192 | recall_samples=84
+2026-05-29 20:56:23 | INFO     | Cold-start CVR=0.00% (γ=0.4, eff_thresh=6.25)
+2026-05-29 20:56:23 | INFO     | Table 3 complete.
+                                           Model                           Retrieval  CVR (%) ↓ CR@1 (%) ↑ CR@5 (%) ↑
+United-MedASR (Banerjee et al. 2024) [simulated]            Whisper + BART corrector       45.1       16.4       38.3
+           LAOS (Xu et al. npj 2025) [simulated]                  Voice + RAG + LoRA       29.7       26.2       57.7
+  MMedFD pipeline (Chen et al. 2025) [simulated]     Streaming ASR + dialogue memory       25.6       39.4       53.7
+           Ours (CM-JEPA + SGG) [REAL inference] Latent world-model + L_KG + L2 gate        0.0        0.0        8.3
+    Ours (Cold Start, Tier 1+2) [REAL inference]    Global ontology fallback (γ=0.4)        0.0          —          —

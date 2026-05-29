@@ -1,0 +1,39 @@
+# D-JEPA: Disentangled Joint-Embedding Predictive Architecture
+# =====================================================================
+# Install:  pip install -r requirements.txt
+# Or:       uv sync   (preferred, uses pyproject.toml + uv.lock)
+#
+# PyTorch, pick the variant for your hardware:
+#   CUDA 12.x (A100/H100):
+#       pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   Apple Silicon MPS:
+#       pip install torch
+#   CPU only:
+#       pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Core deep learning
+torch>=2.1.0
+numpy>=1.24.0
+
+# Data, tokenisation
+datasets>=2.14.0
+huggingface_hub>=0.20.0
+tiktoken>=0.5.0
+tokenizers>=0.15.0
+
+# Audio, feature extraction
+librosa>=0.11.0
+soundfile>=0.12.0
+scipy>=1.10.0
+
+# Baseline: Whisper-large-v3 + LoRA
+transformers>=4.40.0
+peft>=0.10.0
+
+# Evaluation, reporting
+pandas>=2.0.0
+matplotlib>=3.7.0
+python-docx>=1.1.0
+
+# Utilities
+tqdm>=4.65.0
